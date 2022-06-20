@@ -1,0 +1,41 @@
+h1 {
+  color: #36dada;
+  font-size: meduim;
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color: #36dada;
+    font-size: meduim;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.main {
+    background-color: rgb(109, 65, 109);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    color: red;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    animation: button, 3s black;
+}
+
+button:hover {
+    background-color: green;
+}
